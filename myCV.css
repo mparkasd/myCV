@@ -9,7 +9,7 @@
 
 body
 {
-    background: whitesmoke;
+    background: rgba(0, 0, 0, 0.753);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,21 +19,41 @@ body
 {
     position: relative;
     width: 100%;
-    max-width: 100px;
-    min-height: 100px;
-    background: rgb(0, 0, 0);
+    margin: 50px;
+    max-width: fit-content;
+    min-height: 1000px;
+    background: rgba(0, 0, 0, 0.452);
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
 }
 .container .leftSide
 {
     position: relative;
-    background: rgba(15, 145, 252, 0.849);
+    background: rgba(102, 186, 255, 0.74);
     padding: 40px;
+}
+.leftSideText
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+.leftSideText h2
+{
+    color: rgba(0, 0, 0, 0.76);
+    font-size: 2rem;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 2em;
 }
 .container .rightSide
 {
     position: relative;
-    background: rgb(83, 83, 83);
+    background: rgb(255, 255, 255);
     padding: 40px;
 }
