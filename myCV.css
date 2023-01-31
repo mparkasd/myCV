@@ -9,7 +9,7 @@
 
 body
 {
-    background: rgba(0, 0, 0, 0.753);
+    background: whitesmoke;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,10 +22,9 @@ body
     margin: 50px;
     max-width: fit-content;
     min-height: 1000px;
-    background: rgba(0, 0, 0, 0.452);
+    background: whitesmoke;
     display: grid;
     grid-template-columns: 1fr 2fr;
-    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
 }
 
 
@@ -37,10 +36,11 @@ body
 .container .leftSide
 {
     position: relative;
-    background: rgba(102, 186, 255, 0.74);
+    background: whitesmoke;
     padding: 40px;
     text-align: right;
     cursor: default;
+    border-right: 2px solid black;
 }
 .leftSideText
 {
@@ -194,7 +194,7 @@ body
 .container .rightSide
 {
     position: relative;
-    background: rgb(255, 255, 255);
+    background: whitesmoke;
     padding: 40px;
 }
 
