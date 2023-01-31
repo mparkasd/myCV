@@ -6,3 +6,34 @@
     box-sizing: border-box;
     font-family: 'Roboto Condensed', sans-serif;
 }
+
+body
+{
+    background: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 100px;
+    min-height: 100px;
+    background: rgb(0, 0, 0);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.container .leftSide
+{
+    position: relative;
+    background: rgba(15, 145, 252, 0.849);
+    padding: 40px;
+}
+.container .rightSide
+{
+    position: relative;
+    background: rgb(83, 83, 83);
+    padding: 40px;
+}
