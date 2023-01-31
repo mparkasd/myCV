@@ -27,12 +27,20 @@ body
     grid-template-columns: 1fr 2fr;
     box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
 }
+
+
+/*
+    Left 
+    Side 
+    Container 
+*/
 .container .leftSide
 {
     position: relative;
     background: rgba(102, 186, 255, 0.74);
     padding: 40px;
     text-align: right;
+    cursor: default;
 }
 .leftSideText
 {
@@ -57,25 +65,141 @@ body
     font-size: 0.7em;
     font-weight: 800;
 }
+.title
+{
+    color: rgba(0, 0, 0, 0.76);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+/* Contact Section */
 .contact
 {
     padding-top: 40px;
 }
-.title
+.contact ul
 {
-    color: rgba(0, 0, 0, 0.76);
-    font-weight: 600;
+    position: relative;
 }
-.text
+.contact ul li
 {
+    position: relative;
+    margin: 2px 0;
+    cursor: default;
     font-size: 0.9em;
-    font-weight: 300;
+}
+.contact ul li .icon
+{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+}
+.contact ul li span
+{
+    font-weight: 400;
 }
 
 
+/* Education Section */
+.education
+{
+    padding-top: 40px;
+}
+.education ul
+{
+    position: relative;
+}
+.education ul li
+{
+    position: relative;
+    margin: 2px 0;
+    cursor: default;
+    font-size: 0.9em;
+}
+.education ul li .icon
+{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+}
+.education ul li span
+{
+    font-weight: 400;
+}
+
+
+/* Skills Section */
+.skills
+{
+    padding-top: 40px;
+}
+.skills ul
+{
+    position: relative;
+}
+.skills ul li
+{
+    position: relative;
+    margin: 2px 0;
+    cursor: default;
+    font-size: 0.9em;
+}
+.skills ul li .icon
+{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+}
+.skills ul li span
+{
+    font-weight: 400;
+}
+
+/* Interests Section */
+.interests
+{
+    padding-top: 40px;
+}
+.interests ul
+{
+    position: relative;
+}
+.interests ul li
+{
+    position: relative;
+    margin: 2px 0;
+    cursor: default;
+    font-size: 0.9em;
+}
+.interests ul li span
+{
+    font-weight: 400;
+}
+/* 
+    End of 
+    Left Side 
+    Container 
+*/
+
+
+/* 
+    Right 
+    Side 
+    Container 
+*/
 .container .rightSide
 {
     position: relative;
     background: rgb(255, 255, 255);
     padding: 40px;
 }
+
+/* 
+    End of 
+    Right Side 
+    Container 
+*/
