@@ -53,7 +53,7 @@ body
 }
 .leftSideText h2
 {
-    color: rgba(0, 0, 0, 0.76);
+    color: rblack;
     font-size: 1.8rem;
     margin-top: 20px;
     text-align: center;
@@ -64,10 +64,11 @@ body
 {
     font-size: 0.7em;
     font-weight: 800;
+    color: rgb(75, 75, 75);
 }
 .title
 {
-    color: rgba(0, 0, 0, 0.76);
+    color: black;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -97,10 +98,12 @@ body
     display: inline-block;
     width: 30px;
     font-size: 18px;
+    color: black;
 }
 .contact ul li span
 {
     font-weight: 400;
+    color: rgb(75, 75, 75);
 }
 
 
@@ -123,10 +126,12 @@ body
 .education ul li h5,h4
 {
     font-weight: 400;
+    color: rgb(75, 75, 75);
 }
 .education ul li h3
 {
     font-weight: 500;
+    color: rgb(75, 75, 75);
 }
 
 /* Skills Section */
@@ -150,10 +155,12 @@ body
     display: inline-block;
     width: 30px;
     font-size: 18px;
+    color: black;
 }
 .skills ul li span
 {
     font-weight: 400;
+    color: rgb(75, 75, 75);
 }
 
 /* Language Section */
@@ -175,6 +182,7 @@ body
 .language ul li span
 {
     font-weight: 400;
+    color: rgb(75, 75, 75);
 }
 .language .level
 {
@@ -212,6 +220,7 @@ body
 .interests ul li span
 {
     font-weight: 400;
+    color: rgb(75, 75, 75);
 }
 /* 
     End of 
@@ -231,6 +240,8 @@ body
     background: whitesmoke;
     padding: 40px;
 }
+
+/* Career Objective Section */
 .careerObj
 {
     margin-bottom: 30px;
@@ -243,6 +254,36 @@ body
 {
     margin-bottom: 10px;
     letter-spacing: 1px;
+}
+.careerObj p
+{
+    color: rgb(75, 75, 75);
+}
+
+/* Work Experience Section */
+.company
+{
+    padding: 10px 0px 10px 25px;
+    letter-spacing: 1px;
+}
+.company h3
+{
+    font-weight: 600;
+}
+.company h4
+{
+    font-weight: 400;
+
+}
+.company h5{
+    font-weight: 400;
+    color: rgb(75, 75, 75);
+}
+
+/* Other Work Experience Section */
+.workDetails
+{
+    
 }
 
 /* 
