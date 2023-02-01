@@ -79,7 +79,7 @@ body
 /* Contact Section */
 .contact
 {
-    padding-top: 40px;
+    padding-top: 30px;
 }
 .contact ul
 {
@@ -107,7 +107,7 @@ body
 /* Education Section */
 .education
 {
-    padding-top: 40px;
+    padding-top: 25px;
 }
 .education ul
 {
@@ -120,22 +120,19 @@ body
     cursor: default;
     font-size: 0.9em;
 }
-.education ul li .icon
-{
-    display: inline-block;
-    width: 30px;
-    font-size: 18px;
-}
-.education ul li span
+.education ul li h5,h4
 {
     font-weight: 400;
 }
-
+.education ul li h3
+{
+    font-weight: 500;
+}
 
 /* Skills Section */
 .skills
 {
-    padding-top: 40px;
+    padding-top: 25px;
 }
 .skills ul
 {
@@ -159,10 +156,47 @@ body
     font-weight: 400;
 }
 
+/* Language Section */
+.language
+{
+    padding-top: 25px;
+}
+.language ul
+{
+    position: relative;
+}
+.language ul li
+{
+    position: relative;
+    margin: 2px 0;
+    cursor: default;
+    font-size: 0.9em;
+}
+.language ul li span
+{
+    font-weight: 400;
+}
+.language .level
+{
+    position: relative;
+    width: 25%;
+    height: 8px;
+    display: inline-flex;
+    background: rgb(150, 150, 150);
+    margin-top: 5px;
+}
+.language .level div
+{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    background: black;
+}
+
 /* Interests Section */
 .interests
 {
-    padding-top: 40px;
+    padding-top: 25px;
 }
 .interests ul
 {
