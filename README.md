@@ -1,4 +1,4 @@
-# A simple resume template and theme for Front-End Developer.
+# A simple resume template.
 
 ## Overview
 
