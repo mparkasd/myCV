@@ -231,6 +231,19 @@ body
     background: whitesmoke;
     padding: 40px;
 }
+.careerObj
+{
+    margin-bottom: 30px;
+}
+.careerObj:last-child
+{
+    margin-bottom: 0;
+}
+.careerObj .title
+{
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
 
 /* 
     End of 
