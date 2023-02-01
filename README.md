@@ -1,4 +1,4 @@
-# A simple resume template and theme for Front-End Developer.
+# A simple resume template.
 
 ## Overview
 
@@ -19,10 +19,13 @@ Here are some examples
 #### Languages and the respective *width* %
 ![Changing the languages](/assets/languages.jpg)
 
-
+---
 
 If you have any feedback or suggestions for things I can add please let me know by raising an [issue](https://github.com/mparkasd/myCV/issues), I'll be happy to help.
 
+Thank you for checking out my resume theme / template.
+
 ---
 
-Thank you for checking out my resume theme / template.
+## Licence
+This CV template is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
