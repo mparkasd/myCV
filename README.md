@@ -10,28 +10,28 @@ You can use the CV template by changing the following parameters in white color:
 
 
 * Name 
-![Changing the name](/assets/name.jpg)
+* ![Changing the name](/assets/name.jpg)
 
 * Contact Info
-![Changing the contact info](/assets/contactInfo.jpg)
+* ![Changing the contact info](/assets/contactInfo.jpg)
 
 * Education Info
-![Changing the education info](/assets/educationInfo.jpg)
+* ![Changing the education info](/assets/educationInfo.jpg)
 
 * Skills
-![Changing the skills](/assets/skills.jpg)
+* ![Changing the skills](/assets/skills.jpg)
 
 * Languages and the respective %
-![Changing the languages](/assets/languages.jpg)
+* ![Changing the languages](/assets/languages.jpg)
 
 * Interests
-![Changing the interests](/assets/interests.jpg)
+* ![Changing the interests](/assets/interests.jpg)
 
 * Career Objective
-![Changing the career objective](/assets/careerObjective.jpg)
+* ![Changing the career objective](/assets/careerObjective.jpg)
 
 * Work Experiences
-![Changing the work experiences](/assets/workExperiences.jpg)
+* ![Changing the work experiences](/assets/workExperiences.jpg)
 
 
 If you have any feedback or suggestions for things I can add please let me know by by raising an [issue](https://github.com/mparkasd/myCV/issues), I'll be happy to help.
