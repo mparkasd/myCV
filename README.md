@@ -16,7 +16,7 @@ Here are some examples
 #### Education Info
 ![Changing the education info](/assets/educationInfo.jpg)
 
-#### Languages and the respective %
+#### Languages and the respective *width* %
 ![Changing the languages](/assets/languages.jpg)
 
 
