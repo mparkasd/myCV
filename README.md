@@ -6,7 +6,7 @@ I tried to create my personal CV from scratch using only HTML and CSS in this pr
 
 ## Usage
 
-You can customise the CV template by changing the parameters in white color in the HTML file
+You can customise the CV template by changing the parameters in white color in the HTML file.
 
 Here are some examples
 ---
