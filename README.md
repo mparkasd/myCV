@@ -26,3 +26,8 @@ If you have any feedback or suggestions for things I can add please let me know 
 ---
 
 Thank you for checking out my resume theme / template.
+
+---
+
+## Licence
+This CV template is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
