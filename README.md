@@ -9,28 +9,28 @@ I tried to create my personal CV from scratch using only HTML and CSS in this pr
 You can use the CV template by changing the following parameters in white color:
 
 
-#### *Name 
+* Name 
 ![Changing the name](/assets/name.jpg)
 
-#### *Contact Info
+* Contact Info
 ![Changing the contact info](/assets/contactInfo.jpg)
 
-#### *Education Info
+* Education Info
 ![Changing the education info](/assets/educationInfo.jpg)
 
-#### *Skills
+* Skills
 ![Changing the skills](/assets/skills.jpg)
 
-#### Languages and the respective %
+* Languages and the respective %
 ![Changing the languages](/assets/languages.jpg)
 
-#### Interests
+* Interests
 ![Changing the interests](/assets/interests.jpg)
 
-#### Career Objective
+* Career Objective
 ![Changing the career objective](/assets/careerObjective.jpg)
 
-#### Work Experiences
+* Work Experiences
 ![Changing the work experiences](/assets/workExperiences.jpg)
 
 
