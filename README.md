@@ -6,8 +6,23 @@ I tried to create my personal CV from scratch using only HTML and CSS in this pr
 
 ## Usage
 
-You can use the CV template by changing the following parameters in white color:
-#### Name 
+You can customise the CV template by changing the parameters in white color in the HTML file.
 
+Here are some examples
+---
+#### Name 
+![Changing the name](/assets/name.jpg)
+
+#### Education Info
+![Changing the education info](/assets/educationInfo.jpg)
+
+#### Languages and the respective *width* %
+![Changing the languages](/assets/languages.jpg)
+
+
+
+If you have any feedback or suggestions for things I can add please let me know by raising an [issue](https://github.com/mparkasd/myCV/issues), I'll be happy to help.
+
+---
 
 Thank you for checking out my resume theme / template.
