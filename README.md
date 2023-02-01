@@ -19,8 +19,8 @@ You can customise the CV template by changing the parameters in white color in t
 #### Languages and the respective %
 ![Changing the languages](/assets/languages.jpg)
 
+---
 
-
-If you have any feedback or suggestions for things I can add please let me know by by raising an [issue](https://github.com/mparkasd/myCV/issues), I'll be happy to help.
+If you have any feedback or suggestions for things I can add please let me know by raising an [issue](https://github.com/mparkasd/myCV/issues), I'll be happy to help.
 
 Thank you for checking out my resume theme / template.
