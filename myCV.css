@@ -10,16 +10,44 @@
 body
 {
     background: whitesmoke;
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
 }
+
+
+/* Title Container */
+.titleText
+{
+    align-items: center;
+    padding: 10px 0 0 0;
+}
+.titleText h2
+{
+    color: black;
+    font-size: 1.8rem;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 900;
+    line-height: 2em;
+    
+}
+.titleText h2 span
+{
+    font-size: 0.7em;
+    font-weight: 800;
+    color: rgb(75, 75, 75);
+}
+
+
+/* Main Container */
 .container
 {
     position: relative;
     width: 100%;
-    margin: 50px;
+    margin: 40px;
+    margin-top: 25px;
     max-width: fit-content;
     min-height: 1000px;
     background: whitesmoke;
@@ -28,43 +56,15 @@ body
 }
 
 
-/*
-    Left 
-    Side 
-    Container 
-*/
+/* Left Side Container */
 .container .leftSide
 {
     position: relative;
     background: whitesmoke;
-    padding: 40px;
+    padding: 32px;
     text-align: right;
     cursor: default;
     border-right: 2px solid black;
-}
-.leftSideText
-{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 20px;
-    border-bottom: 1px solid black;
-}
-.leftSideText h2
-{
-    color: rblack;
-    font-size: 1.8rem;
-    margin-top: 20px;
-    text-align: center;
-    font-weight: 900;
-    line-height: 2em;
-}
-.leftSideText h2 span
-{
-    font-size: 0.7em;
-    font-weight: 800;
-    color: rgb(75, 75, 75);
 }
 .title
 {
@@ -73,15 +73,11 @@ body
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 10px;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 
 /* Contact Section */
-.contact
-{
-    padding-top: 30px;
-}
 .contact ul
 {
     position: relative;
@@ -91,7 +87,7 @@ body
     position: relative;
     margin: 2px 0;
     cursor: default;
-    font-size: 0.9em;
+    font-size: 0.85em;
 }
 .contact ul li .icon
 {
@@ -121,7 +117,7 @@ body
     position: relative;
     margin: 2px 0;
     cursor: default;
-    font-size: 0.9em;
+    font-size: 0.85em;
 }
 .education ul li h5,h4
 {
@@ -133,6 +129,7 @@ body
     font-weight: 500;
     color: rgb(75, 75, 75);
 }
+
 
 /* Skills Section */
 .skills
@@ -148,7 +145,7 @@ body
     position: relative;
     margin: 2px 0;
     cursor: default;
-    font-size: 0.9em;
+    font-size: 0.85em;
 }
 .skills ul li .icon
 {
@@ -162,6 +159,7 @@ body
     font-weight: 400;
     color: rgb(75, 75, 75);
 }
+
 
 /* Language Section */
 .language
@@ -177,7 +175,7 @@ body
     position: relative;
     margin: 2px 0;
     cursor: default;
-    font-size: 0.9em;
+    font-size: 0.85em;
 }
 .language ul li span
 {
@@ -201,6 +199,7 @@ body
     background: black;
 }
 
+
 /* Interests Section */
 .interests
 {
@@ -215,31 +214,25 @@ body
     position: relative;
     margin: 2px 0;
     cursor: default;
-    font-size: 0.9em;
+    font-size: 0.85em;
 }
 .interests ul li span
 {
     font-weight: 400;
     color: rgb(75, 75, 75);
 }
-/* 
-    End of 
-    Left Side 
-    Container 
-*/
+/* End of Left Side Container */
 
 
-/* 
-    Right 
-    Side 
-    Container 
-*/
+
+/* Right Side Container */
 .container .rightSide
 {
     position: relative;
     background: whitesmoke;
-    padding: 40px;
+    padding: 30px;
 }
+
 
 /* Career Objective Section */
 .careerObj
@@ -254,7 +247,9 @@ body
 {
     color: rgb(75, 75, 75);
     padding-bottom: 15px;
+    font-size: 1em;
 }
+
 
 /* Work Experience Section */
 .company
@@ -282,17 +277,14 @@ body
     padding-bottom: 20px;
 }
 
+
 /* Other Work Experience Section */
 .workDetails
 {
     padding: 10px 0 25px 35px;
     font-weight: 300;
-    font-size: 0.9em;
+    font-size: 0.85em;
     max-width: 75%;
     text-align: justify;
 }
-/* 
-    End of 
-    Right Side 
-    Container 
-*/
+/* End of Right Side Container */
