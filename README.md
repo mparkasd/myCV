@@ -8,7 +8,7 @@ I tried to create my personal CV from scratch using only HTML and CSS in this pr
 
 You can use the CV template by changing the following parameters in white color:
 
-### Name 
+##### Name 
 
 
 Thank you for checking out my resume theme / template.
