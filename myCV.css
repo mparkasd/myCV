@@ -46,10 +46,10 @@ body
 {
     position: relative;
     width: 100%;
-    margin: 40px;
-    margin-top: 25px;
+    margin: 25px;
+    margin-top: 20px;
     max-width: fit-content;
-    min-height: 1000px;
+    min-height: 900px;
     background: whitesmoke;
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -61,7 +61,7 @@ body
 {
     position: relative;
     background: whitesmoke;
-    padding: 32px;
+    padding: 30px;
     text-align: right;
     cursor: default;
     border-right: 2px solid black;
@@ -73,7 +73,7 @@ body
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 10px;
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 
@@ -106,7 +106,7 @@ body
 /* Education Section */
 .education
 {
-    padding-top: 25px;
+    padding-top: 15px;
 }
 .education ul
 {
@@ -134,7 +134,7 @@ body
 /* Skills Section */
 .skills
 {
-    padding-top: 25px;
+    padding-top: 15px;
 }
 .skills ul
 {
@@ -164,7 +164,7 @@ body
 /* Language Section */
 .language
 {
-    padding-top: 25px;
+    padding-top: 15px;
 }
 .language ul
 {
@@ -203,7 +203,7 @@ body
 /* Interests Section */
 .interests
 {
-    padding-top: 25px;
+    padding-top: 15px;
 }
 .interests ul
 {
@@ -230,23 +230,23 @@ body
 {
     position: relative;
     background: whitesmoke;
-    padding: 30px;
+    padding: 25px;
 }
 
 
 /* Career Objective Section */
 .careerObj
 {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 .careerObj .title
 {
-    margin-bottom: 10px;
+    margin-bottom: 7px;
 }
 .careerObj p
 {
     color: rgb(75, 75, 75);
-    padding-bottom: 15px;
+    padding-bottom: 10px;
     font-size: 1em;
 }
 
@@ -274,17 +274,16 @@ body
 }
 .workExp .company
 {
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 
 /* Other Work Experience Section */
 .workDetails
 {
-    padding: 10px 0 25px 35px;
+    padding: 10px 0 15px 25px;
     font-weight: 300;
     font-size: 0.85em;
-    max-width: 75%;
     text-align: justify;
 }
 /* End of Right Side Container */
