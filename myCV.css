@@ -295,9 +295,9 @@ body
 }
 .workDetails
 {
-    padding: 5px 0 8px 8px;
+    padding: 5px 0 8px 0px;
     font-weight: 400;
-    font-size: 0.95em;
+    font-size: 0.8em;
     text-align: justify;
     color: rgb(75, 75, 75);
 }
