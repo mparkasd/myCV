@@ -11,16 +11,15 @@ body
 {
     background: whitesmoke;
     display: grid;
-    justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 90vh;
+    padding-bottom: 30px;
 }
 
 
 /* Title Container */
 .titleText
 {
-    align-items: center;
     padding: 10px 0 0 0;
 }
 .titleText h2
@@ -46,10 +45,9 @@ body
 {
     position: relative;
     width: 100%;
-    margin: 25px;
     margin-top: 20px;
     max-width: fit-content;
-    min-height: 900px;
+    height: min-content;
     background: whitesmoke;
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -61,7 +59,7 @@ body
 {
     position: relative;
     background: whitesmoke;
-    padding: 30px;
+    padding: 3px 30px 5px 30px;
     text-align: right;
     cursor: default;
     border-right: 2px solid black;
@@ -81,6 +79,7 @@ body
 .contact ul
 {
     position: relative;
+    list-style: none;
 }
 .contact ul li
 {
@@ -110,6 +109,7 @@ body
 }
 .education ul
 {
+    list-style: none;
     position: relative;
 }
 .education ul li
@@ -138,6 +138,7 @@ body
 }
 .skills ul
 {
+    list-style: none;
     position: relative;
 }
 .skills ul li
@@ -168,6 +169,7 @@ body
 }
 .language ul
 {
+    list-style: none;
     position: relative;
 }
 .language ul li
@@ -179,8 +181,17 @@ body
 }
 .language ul li span
 {
+    padding-right: 10px;
     font-weight: 400;
     color: rgb(75, 75, 75);
+}
+.language .percent
+{
+    width:100%
+}
+.language .percent2
+{
+    width:90%
 }
 .language .level
 {
@@ -207,6 +218,7 @@ body
 }
 .interests ul
 {
+    list-style: none;
     position: relative;
 }
 .interests ul li
@@ -228,9 +240,9 @@ body
 /* Right Side Container */
 .container .rightSide
 {
+    padding: 2px 30px 5px 30px;
     position: relative;
     background: whitesmoke;
-    padding: 25px;
 }
 
 
@@ -255,6 +267,11 @@ body
 .company
 {
     padding: 0px 0px 6px 15px;
+}
+.company ul
+{
+    position: relative;
+    list-style: none;
 }
 .company h3
 {
@@ -281,7 +298,7 @@ body
 /* Other Work Experience Section */
 .workDetails
 {
-    padding: 10px 0 15px 25px;
+    padding: 10px 0 15px 15px;
     font-weight: 300;
     font-size: 0.85em;
     text-align: justify;
