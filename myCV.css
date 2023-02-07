@@ -275,16 +275,15 @@ body
 }
 .company h3
 {
-    font-weight: 600;
+    font-weight: 500;
 }
 .company h4
 {
-    font-weight: 300;
+    font-weight: 400;
 }
 .company h4 span
 {
     font-weight: 500;
-    color: black;
 }
 .company h3,h4{
     padding: 1px 0 2px;
